@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Session</title>
+</head>
+<body>
+<fieldset>
+
+  <h1>Practice Session</h1>
+    <form>
+        <label> Full names</label>
+        <input type="text" name="fullname" placeholder="Enter your full names" required><br><br>
+
+        <label>Email address</label>
+        <input 
+  class="border p-2 rounded 
+         focus:ring-2 focus:ring-red-500 
+         invalid:border-red-500 invalid:text-green-600 
+         valid:border-blue-500" 
+  type="email" 
+  required 
+  placeholder="Email Address" 
+/>
+<br><br>
+
+        <label>your password</label>    
+        <input type="password" minlength="5" maxlength="12" name="password" placeholder="eneter your password" required><br><br> 
+        
+        <label>your phone number</label>
+        <input type="tel" min="10" max="10" name="phone" placeholder="Enter your phone number" required><br><br>
+
+        <label>your age</label>
+        <input type="number" min="18" max="30" name="age" placeholder="Enter your age" required><br><br>
+
+        <label>Social media Link</label>
+        <input type="Url" name="social media" placeholder="https://" required><br><br> 
+
+        <h1><b><legend>Gender</legend></b></h1>
+        <label><input type="radio" name="gender"  required> male </label > <br><br>
+
+        <label><input type="radio" name="gender"> female </label> <br><br>
+
+        <h1><b><label>Feedback</label></b></h1>
+        <textarea name="feedback" pattern="[A-Za-z /s]{3,}" required placeholder="Give us any Feedback" rows="5" cols="40"></textarea><br><br>
+
+
+         <h1><b><label>Suggestions</label></b></h1>
+        <textarea name="suggestions" placeholder="Enter your suggestions here" rows="5" cols="40"></textarea><br><br>
+
+        <input type="checkbox" required/>I agree to the terms and conditions <br><br>
+    
+        <button type="submit" class="bg-green-500 text-black px-4 py-2 rounded">Submit your form</button><br><br>
+    </form> 
+</fieldset>  
+</body>
+</html>

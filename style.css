@@ -1,0 +1,12 @@
+body {
+  background-color: aquamarine;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.form-container {
+  background-color: blueviolet;
+  padding: 30px;
+  margin: 20px;
+  text-align: center;
+}
+
